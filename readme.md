@@ -21,5 +21,5 @@ Also some guidelines to follow to make the project more maintainable.
     - Delete folder ``` playwright.config.ts, tests & tests-examples```
     - Create folder ```src/tests/features```
     - Create folder ```src/tests/step-definitions```
-6. Let's create the required feature files and step definitions:
+6. Let's create the required feature files and step definitions: 
     - Create file ```src/tests/features/*.feature```
