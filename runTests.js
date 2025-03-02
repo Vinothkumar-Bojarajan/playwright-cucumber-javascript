@@ -1,12 +1,6 @@
 import { exec } from 'child_process';
 import { createWriteStream } from 'fs';
 
-//To Execute all feature files
-//const playwrightCommand = 'npm run cucumber';
-
-//To Execute specfic feature file - Not working
-//const playwrightCommand = 'npx cucumber-js --config=config/cucumber.js -- src/tests/features/TC01_DemoBlaze_Purchase.feature';
-
 // To execute all feature files
 const playwrightCommand = 'npx cucumber-js --config=config/cucumber.cjs --import src/tests/step-definitions/*.mjs';
 
