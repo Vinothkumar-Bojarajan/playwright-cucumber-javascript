@@ -1,0 +1,25 @@
+{
+  "name": "playwright-cucumber-starter",
+  "version": "1.0.0",
+  "description": "Baseline project to start using Playwright with Cucumber. ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "cucumber": "cross-env FORCE_COLOR=0 cucumber-js --config config/cucumber.cjs --import src/tests/step-definitions/*.mjs",
+    "test": "cucumber-js --config config/cucumber.cjs --import src/tests/step-definitions/*.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.0",
+    "cross-env": "^7.0.3",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.50.1"
+  }
+}
